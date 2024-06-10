@@ -1,0 +1,14 @@
+console.log(number(42));
+console.log(number("11"));
+console.log(number("0x11"));
+console.log(number("0o11"));
+console.log(number("0b11"));
+console.log(number("12e3"));
+console.log(number("infinito"));
+console.log(number("text"));
+console.log(number("14n"));
+console.log(number(123456789123456789123n));
+console.log(number(true));
+console.log(number(false));
+console.log(number(undefined));
+console.log(number(null));
